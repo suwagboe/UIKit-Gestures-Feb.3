@@ -9,19 +9,27 @@
 /* Begin PBXBuildFile section */
 		55853A9223E89362008C8B86 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 55853A9123E89362008C8B86 /* AppDelegate.swift */; };
 		55853A9423E89362008C8B86 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 55853A9323E89362008C8B86 /* SceneDelegate.swift */; };
-		55853A9623E89362008C8B86 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 55853A9523E89362008C8B86 /* ViewController.swift */; };
 		55853A9B23E89365008C8B86 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 55853A9A23E89365008C8B86 /* Assets.xcassets */; };
 		55853A9E23E89365008C8B86 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 55853A9C23E89365008C8B86 /* LaunchScreen.storyboard */; };
+		55853AA623E8942D008C8B86 /* GesturesTabController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 55853AA523E8942D008C8B86 /* GesturesTabController.swift */; };
+		55853AA823E8947F008C8B86 /* TapGestureController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 55853AA723E8947F008C8B86 /* TapGestureController.swift */; };
+		55853AAA23E8949B008C8B86 /* TapGesture.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 55853AA923E8949B008C8B86 /* TapGesture.storyboard */; };
+		55853AAC23E894BD008C8B86 /* SwipeGestureController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 55853AAB23E894BD008C8B86 /* SwipeGestureController.swift */; };
+		55853AAE23E894D9008C8B86 /* swipeGesture.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 55853AAD23E894D9008C8B86 /* swipeGesture.storyboard */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
 		55853A8E23E89362008C8B86 /* UIKit Gestures Feb.3.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "UIKit Gestures Feb.3.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		55853A9123E89362008C8B86 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		55853A9323E89362008C8B86 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
-		55853A9523E89362008C8B86 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
 		55853A9A23E89365008C8B86 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		55853A9D23E89365008C8B86 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		55853A9F23E89365008C8B86 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		55853AA523E8942D008C8B86 /* GesturesTabController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GesturesTabController.swift; sourceTree = "<group>"; };
+		55853AA723E8947F008C8B86 /* TapGestureController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TapGestureController.swift; sourceTree = "<group>"; };
+		55853AA923E8949B008C8B86 /* TapGesture.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; path = TapGesture.storyboard; sourceTree = "<group>"; };
+		55853AAB23E894BD008C8B86 /* SwipeGestureController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SwipeGestureController.swift; sourceTree = "<group>"; };
+		55853AAD23E894D9008C8B86 /* swipeGesture.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; path = swipeGesture.storyboard; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -56,7 +64,11 @@
 			children = (
 				55853A9123E89362008C8B86 /* AppDelegate.swift */,
 				55853A9323E89362008C8B86 /* SceneDelegate.swift */,
-				55853A9523E89362008C8B86 /* ViewController.swift */,
+				55853AA523E8942D008C8B86 /* GesturesTabController.swift */,
+				55853AA923E8949B008C8B86 /* TapGesture.storyboard */,
+				55853AA723E8947F008C8B86 /* TapGestureController.swift */,
+				55853AAD23E894D9008C8B86 /* swipeGesture.storyboard */,
+				55853AAB23E894BD008C8B86 /* SwipeGestureController.swift */,
 				55853A9A23E89365008C8B86 /* Assets.xcassets */,
 				55853A9C23E89365008C8B86 /* LaunchScreen.storyboard */,
 				55853A9F23E89365008C8B86 /* Info.plist */,
@@ -122,6 +134,8 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				55853AAA23E8949B008C8B86 /* TapGesture.storyboard in Resources */,
+				55853AAE23E894D9008C8B86 /* swipeGesture.storyboard in Resources */,
 				55853A9E23E89365008C8B86 /* LaunchScreen.storyboard in Resources */,
 				55853A9B23E89365008C8B86 /* Assets.xcassets in Resources */,
 			);
@@ -134,9 +148,11 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				55853A9623E89362008C8B86 /* ViewController.swift in Sources */,
 				55853A9223E89362008C8B86 /* AppDelegate.swift in Sources */,
+				55853AA823E8947F008C8B86 /* TapGestureController.swift in Sources */,
+				55853AAC23E894BD008C8B86 /* SwipeGestureController.swift in Sources */,
 				55853A9423E89362008C8B86 /* SceneDelegate.swift in Sources */,
+				55853AA623E8942D008C8B86 /* GesturesTabController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
